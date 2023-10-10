@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    }
+    
+    header, #title{
+        background-color: grey;
+      color: ivory;
+      text-align: center;
+       margin: 0;
+       width: 100%;
+      } 
+
+      .chesscontainer{
+
+        height: 850px;
+        width: 850px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-end;
+        margin:  10px 10px 30px 80px;
+      }
+
+      .acell{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        border: solid black;
+        background-color: white;
+
+      }
+
+      .blck{
+        border: solid black;
+        background-color: gray;
+        
+      }
